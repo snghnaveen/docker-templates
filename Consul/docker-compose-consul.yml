@@ -1,0 +1,15 @@
+version: "3"
+services:
+    consul:
+        ports:
+            - '8400:8400'
+            - '8500:8500'
+            - '8600:53/udp'
+            - true
+        #environment:
+         #   - true
+          #  - true
+        #volumes:
+         #   - true
+        image: progrium/consul
+
